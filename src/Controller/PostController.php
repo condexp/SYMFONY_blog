@@ -49,6 +49,23 @@ class PostController extends AbstractController
  
     }
  
- 
+ // L'annotation est a reecrire.
+   /*  
+     * @Route("/QUERYBUILDER", name="app_QUERYBUILDER") : 
+     *
+    public function testQUERYBUILDER(PostRepository $postRepository): Response
+    {
+       
+        
+        $posts = $postRepository->findLastPosts();
+
+        dd($posts);
+
+        return $this->render('???/????.index.html.twig', [
+            'controller_name' => 'PostController home',
+            'posts'=>  $posts
+        ]);
+    } */
+
     
 }
